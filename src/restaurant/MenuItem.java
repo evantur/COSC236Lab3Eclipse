@@ -2,6 +2,7 @@ package restaurant;
 // MenuItem class
 public class MenuItem {
     private String name;
+    // TODO change the name of 'price' to 'priceInDollars'
     private double price;
 
     public MenuItem(String name, double price) {
