@@ -6,7 +6,7 @@ import java.util.List;
 public class Order {
     private List<MenuItem> items = new ArrayList<>();
     
-    // TODO change method to print string with item name
+    // DONE change method to print string with item name
     public void addItem(MenuItem item) {
         items.add(item);
         // added code below
