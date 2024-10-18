@@ -9,8 +9,9 @@ public class Customer {
         this.order = new Order();  // Collaborating with Order class
     }
 
-    // TODO change 'addMenuItemToOrder' to 'addToOrder'
-    public void addMenuItemToOrder(MenuItem item) {
+    // DONE change 'addMenuItemToOrder' to 'addToOrder'
+    // name changed to 'addToOrder'
+    public void addToOrder(MenuItem item) {
         order.addItem(item);  // Collaborating with Order to add items
     }
 
